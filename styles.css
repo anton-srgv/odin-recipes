@@ -1,11 +1,20 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    padding: 24px;
   }
 
-.header {
+h1, h2 {
     font-weight: 600;
-    font-size: 2rem;
     color: #000;
+}
+
+h1.header {
+    font-size: 2rem;
+}
+
+h2.subheader {
+    font-size: 1.75rem;
 }
 
 li.recipe-item {
@@ -18,3 +27,12 @@ li.recipe-item {
     list-style: none;
 }
 
+#page-image {
+    width: 600px;
+    height: auto;
+}
+
+p.description {
+    font-size: 1.125rem;
+    color: rgba(0, 0, 0, .95);
+}
